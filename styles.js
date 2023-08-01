@@ -1,0 +1,51 @@
+import { StyleSheet } from "react-native";
+export default styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    // marginTop: StatusBar.currentHeight,
+    // marginTop: 10,
+  },
+  title: {
+    fontSize: 22,
+    color: "white",
+    fontWeight: "bold",
+    backgroundColor: "green",
+    textAlign: "center",
+    padding: 15,
+    // fontFamily: "Borel-Regular.ttf",
+  },
+  list: {
+    padding: 20,
+    fontWeight: "500",
+    marginBottom: 60,
+  },
+  row: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    // backgroundColor: "yellow",
+  },
+  btn: {
+    padding: 20,
+    backgroundColor: "white",
+    position: "absolute",
+    right: 10,
+    bottom: 10,
+    backgroundColor: "green",
+    borderRadius: 50,
+    alignContent: "center",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  inputStyle: {
+    padding: 8,
+    position: "absolute",
+    bottom: 10,
+    borderWidth: 2,
+    borderColor: "black",
+    marginLeft: 20,
+    marginRight: 15,
+    width: "70%",
+  },
+  underlined: {},
+});
